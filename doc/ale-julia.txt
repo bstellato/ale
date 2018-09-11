@@ -5,7 +5,8 @@ ALE Julia Integration                                       *ale-julia-options*
 languageserver                                       *ale-julia-languageserver*
 
 To enable Julia LSP linter you need to install the LanguageServer.jl package
-within julia.
+within julia. ALE will look for project files such as 'Project.toml',
+'Manifest.toml' to find the root of the current project.
 
 g:ale_julia_executable                                 *g:ale_julia_executable*
                                                        *b:ale_julia_executable*
